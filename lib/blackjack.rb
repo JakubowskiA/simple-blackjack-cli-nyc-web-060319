@@ -67,11 +67,11 @@ def runner
   welcome
   deal_card
   card_total = initial_round
-  display_card_total(card_total)
+  #display_card_total(card_total)
 
   until card_total > 21
-    prompt_user
-    get_user_input
+  #  prompt_user
+  #  get_user_input
     card_total = hit?(card_total)
     display_card_total(card_total)
   end
