@@ -68,7 +68,7 @@ def runner
   deal_card
   card_total = initial_round
   display_card_total(card_total)
-  
+
   until card_total > 21
     prompt_user
     get_user_input
